@@ -1,0 +1,1 @@
+print[entree deux nombre]

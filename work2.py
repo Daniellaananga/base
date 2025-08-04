@@ -1,5 +1,5 @@
-from colorama import Fore, Back, Style
-print(Fore.YELLOW + Back.RED +"For This Exercise You Will Be Asked Four Numbers Of Your Choice  " + Style.BRIGHT + Style.RESET_ALL)
+from rich.console import Console
+print("For This Exercise You Will Be Asked Four Numbers Of Your Choice  " + Style.RESET_ALL)
 a=int (input("1:"))
 b=int (input("2:"))
 c=int (input("3:"))
